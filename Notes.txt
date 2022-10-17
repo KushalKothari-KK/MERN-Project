@@ -1,0 +1,22 @@
+client - React/Js (SPA)
+Server - NodeJs/express and mongoDB (Business Logic / Persistent Data Storage and Authentication Logic)
+
+with the help of requests and responses Data(JSON Format)
+
+MERN Theory 
+
+cannot directly connect with database from front-end need to go through node/express
+
+
+Backend (server) == API
+
+can be done by using NodeJs
+
+1) REST API 
+Different URLs + Http Verbs (= endpoints) for different actions
+
+any client to REST API
+
+2)GraphQL API
+One URL + Http Verb (=one endpoint) that accepts query commands
+POST/graphql
