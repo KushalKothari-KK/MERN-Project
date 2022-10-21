@@ -20,3 +20,79 @@ any client to REST API
 2)GraphQL API
 One URL + Http Verb (=one endpoint) that accepts query commands
 POST/graphql
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+MERN Main Project Planning :
+
+1) General App Idea :- places with images & locations
+(CRUD,MultipleData models ,image upload,input validation and Authentication and authorization required)
+
+2) Sketching out the Frontend
+basic design
+
+3) Data & API Endpoints used in our App
+Data:
+1)User: Name,E-Mail,Password,image
+2)Places: Title,Description,Address,location,Image
+3)API:
+1) users
+
+/api/users/
+GET - / :- to get all users
+POST - /signup:- create new users
+POST - /login:- Login users
+
+2)Places
+GET - /user/:uid :- to get all places
+GET - /user/:pid :- place by place id
+POST - / :- create a new place
+PATCH - /:pid :- update a place by id
+DELETE - /:pid :- delete a place by id(pid)
+
+
+
+4) Required SPA Pages for the Frontend
+
+**************************************************************************************************************************
+
+React:
+Components:
+
+1) Presentational
+
+Card,Avatar,UserItem,UserList,User
+
+2) Stateful Components
+App
+
+React Portals:
+
+a react component to render somewher else than regular render place
+code:=
+ReactDOM.createPortal(content, document.getElementById("drawer-hook"))
+
+For Animation :
+npm install react-transition-group
+
+To directly forward props to another component :
+<ModalOverlay {...props} />
+
+To render google maps:
+
+npm react-google-maps
+
+Or
+
+google maps js sdk (need credit card)
+
+mapbox
+
+For Form functionality validations
+
+Formik
+
+*UseReducer:
+manage state that are connnected
+
+Hooks Must be directly used inside components not inside if block,loops or other functions also inside then block.
