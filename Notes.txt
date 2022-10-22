@@ -96,3 +96,7 @@ Formik
 manage state that are connnected
 
 Hooks Must be directly used inside components not inside if block,loops or other functions also inside then block.
+*******************************************************************************************************************************
+
+--save for core app dependence
+--save-dev
