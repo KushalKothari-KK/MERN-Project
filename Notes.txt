@@ -100,3 +100,18 @@ Hooks Must be directly used inside components not inside if block,loops or other
 
 --save for core app dependence
 --save-dev
+
+for new backend project:
+
+1)npm init -> enter
+2) npm install --save express body-parser
+3) npm install --save-dev nodemon
+4) add new file app.js(entry)
+5) "start": "nodemon app.js" add in package.json
+6) npm install --save uuid
+7) To Authenticate input validation use 
+npm install --save express-validator
+8) Convert addres to api
+
+i) google geocoding api need credit card for billing
+ii)
