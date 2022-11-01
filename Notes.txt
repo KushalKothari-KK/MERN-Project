@@ -114,4 +114,26 @@ npm install --save express-validator
 8) Convert addres to api
 
 i) google geocoding api need credit card for billing
-ii)
+
+
+******************************************************************************************************************************
+
+mongoDB and Mongoose
+
+1) mongoDB: A NoSQL database
+for storing application data,no schema or relations,easily connected to node/express
+
+Can also use database
+
+a) Difference Between NoSQL vs NoSQL
+NoSQL :- mongoDB,CouchDB , Enforces no Data Schema , Less Focused on Relations , Independent Document , For: Logs,Orders,Chat
+SQL :- MySQL,MS SQL, Enforces a Strict Data Schema , Relations are a Core Feature , Records are Related , For: Shopping Carts,Contacts,Networks
+
+Setup Backend:=
+Backend-MongoDB
+
+i) npm install --save mongodb
+ii) goto mongoDB atlas - connect -> connect your application -> use link
+iii) install Mongoose => npm install --save mongoose
+
+Mongoose define schema
