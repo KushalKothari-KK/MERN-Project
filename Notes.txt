@@ -131,9 +131,23 @@ SQL :- MySQL,MS SQL, Enforces a Strict Data Schema , Relations are a Core Featur
 
 Setup Backend:=
 Backend-MongoDB
+Mongoose define schema
 
 i) npm install --save mongodb
 ii) goto mongoDB atlas - connect -> connect your application -> use link
 iii) install Mongoose => npm install --save mongoose
+iV)npm install --save mongoose-unique-validator
 
-Mongoose define schema
+Users and Places needs to be connected
+
+one user can create multiple places
+one place belongs to exactly one user
+
+transaction and sessions
+transaction: muliple operation in isolation on each other duty
+sessions: transaction are build on session
+
+***To read more on :
+populate method
+findOne method
+ref
